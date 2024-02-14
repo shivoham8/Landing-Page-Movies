@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page-Movies</title>
+    <script src="https://kit.fontawesome.com/4676322822.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+        <ul class="nav">
+            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="content the-godfather active">
+            <img src="assets/the-godfather-title.png" alt="" class="movie-title">
+            <h4>
+                <span>1972</span>
+                <span>R</span>
+                <span>2h 55m</span>
+                <span>Crime</span>
+            </h4>
+            <p>
+                The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+            </p>
+            <div class="button">
+               <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a> 
+               <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a> 
+            </div>
+        </div>
+        <div class="content the-wolf-of-wall-street">
+            <img src="assets/the-wolf-of-wall-street-title.png" alt="" class="movie-title">
+            <h4>
+                <span>2013</span>
+                <span>R</span>
+                <span>3h</span>
+                <span>Biography/Comedy</span>
+            </h4>
+            <p>
+                Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.
+            </p>
+            <div class="button">
+               <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a> 
+               <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a> 
+            </div>
+        </div>
+        <div class="content the-shawshank-redemption">
+            <img src="assets/the-shawshank-redemption-title.png" alt="" class="movie-title">
+            <h4>
+                <span>1994</span>
+                <span>R</span>
+                <span>2h 22m</span>
+                <span>Drama</span>
+            </h4>
+            <p>
+                Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.
+            </p>
+            <div class="button">
+               <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a> 
+               <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a> 
+            </div>
+        </div>        
+        <div class="content the-pursuit-of-happyness">
+            <img src="assets/the-pursuit-of-happyness-title.png" alt="" class="movie-title">
+            <h4>
+                <span>2006</span>
+                <span>PG-13</span>
+                <span>1h 57m</span>
+                <span>Biography</span>
+            </h4>
+            <p>
+                A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.
+            </p>
+            <div class="button">
+               <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a> 
+               <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a> 
+            </div>
+        </div> 
+        <div class="content the-fast-and-the-furious">
+            <img src="assets/the-fast-and-the-furious-title.png" alt="" class="movie-title">
+            <h4>
+                <span>2001</span>
+                <span>PG-13</span>
+                <span>1h 46m</span>
+                <span>Action/Crime</span>
+            </h4>
+            <p>
+                Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.
+            </p>
+            <div class="button">
+               <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a> 
+               <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a> 
+            </div>
+        </div>
+        <div class="content catch-me-if-you-can">
+            <img src="assets/catch-me-if-you-can-title.png" alt="" class="movie-title">
+            <h4>
+                <span>2002</span>
+                <span>PG-13</span>
+                <span>2h 21m</span>
+                <span>Biography</span>
+            </h4>
+            <p>
+                Barely 17 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.
+            </p>
+            <div class="button">
+               <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Watch</a> 
+               <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a> 
+            </div>
+        </div>
+
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item the-godfather" onclick="changeBackground('bg-the-godfather.jpeg', 'the-godfather');">
+                    <img src="assets/movies/the-godfather.jpeg" alt="">
+                </div>
+                <div class="carousel-item the-wolf-of-wall-street" onclick="changeBackground('bg-the-wolf-of-wall-street.jpg', 'the-wolf-of-wall-street');">
+                    <img src="assets/movies/the-wolf-of-wall-street.jpg" alt="">
+                </div>
+                <div class="carousel-item the-shawshank-redemption" onclick="changeBackground('bg-the-shawshank-redemption.jpg', 'the-shawshank-redemption');">
+                    <img src="assets/movies/the-shawshank-redemption.jpg" alt="">
+                </div>
+                <div class="carousel-item the-pursuit-of-happyness" onclick="changeBackground('bg-the-pursuit-of-happyness.jpeg', 'the-pursuit-of-happyness');">
+                    <img src="assets/movies/the-pursuit-of-happyness.jpg" alt="">
+                </div>
+                <div class="carousel-item the-fast-and-the-furious" onclick="changeBackground('bg-the-fast-and-the-furious.jpeg', 'the-fast-and-the-furious');">
+                    <img src="assets/movies/the-fast-and-the-furious.jpeg" alt="">
+                </div>
+                <div class="carousel-item catch-me-if-you-can" onclick="changeBackground('bg-catch-me-if-you-can.jpeg', 'catch-me-if-you-can');">
+                    <img src="assets/movies/catch-me-if-you-can.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <a href="#" class="play" onclick="toggleVideo();"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Watch Trailer</a>
+
+        <ul class="social">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="trailer">
+        <video src="assets/The GodFather(1972) - Trailer.mp4" muted controls="true" autoplay="true"></video>
+        <img src="assets/close.png" alt="" class="close" onclick="toggleVideo();">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
